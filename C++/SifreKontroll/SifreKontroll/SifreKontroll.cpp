@@ -26,7 +26,7 @@ int main() {
 	}
 
 
-	if ((strlen(sifre) > 8) && (lowers > 0) && (uppers > 0)) {
+	if ((strlen(sifre) > 8) && (strlen(sifre) == 8) && (lowers > 0) && (uppers > 0)) {
 		printf("Parola geçerli.");
 	}
 	else {
